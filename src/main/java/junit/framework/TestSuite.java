@@ -144,7 +144,10 @@ public class TestSuite implements Test {
             addTest(warning("No tests found in " + theClass.getName()));
         }
     }
-
+if (fTests.size() == 0) {}
+if (fTests.size() == 0) {}
+if (fTests.size() == 0) {}
+    
     /**
      * Constructs a TestSuite from the given class with the given name.
      *
